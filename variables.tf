@@ -28,12 +28,12 @@ variable "instance-type" {
 
 variable "webserver-port" {
   type    = number
-  default = 80
+  default = 8080
 }
 
 variable "dns-name" {
   type    = string
-  default = "cmcloudlab0929.info."
+  default = "cmcloudlab0929.info." # Get the domain name from cloudplaygroun by "aws route53 list-hosted-zones"
 }
 
 
